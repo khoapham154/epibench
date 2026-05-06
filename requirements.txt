@@ -1,0 +1,45 @@
+# Core
+torch>=2.4
+transformers>=4.45
+accelerate>=0.34
+peft>=0.12
+datasets>=2.20
+huggingface_hub>=0.24
+sentencepiece
+tokenizers>=0.20
+safetensors
+
+# Inference / serving
+vllm==0.19.1
+
+# Vision baselines
+pillow>=10.0
+opencv-python>=4.10
+imagehash>=4.3
+einops>=0.8
+
+# NLP / classical baselines
+scikit-learn>=1.5
+scipy>=1.13
+numpy>=1.26
+pandas>=2.2
+
+# Document parsing
+lxml>=5.2
+pypdf>=4.0
+beautifulsoup4>=4.12
+surya-ocr>=0.4          # OCR fallback for table images
+
+# Clustering / embeddings
+faiss-cpu>=1.8          # or faiss-gpu if CUDA build available
+umap-learn>=0.5
+kneed>=0.8
+
+# Plotting (figures)
+matplotlib>=3.9
+seaborn>=0.13
+
+# Development
+tqdm>=4.66
+openpyxl>=3.1           # XLSX export
+pyyaml>=6.0

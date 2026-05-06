@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Heavy artefacts that should not live in git
+checkpoints/
+ckpt/
+runs/
+wandb/
+logs/
+features/
+*.pt
+*.bin
+*.safetensors
+*.npy
+
+# Local datasets pulled from HuggingFace
+dataset/
+data/
+profiles/
+subfigures/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz

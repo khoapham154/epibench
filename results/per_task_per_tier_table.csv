@@ -1,0 +1,829 @@
+baseline,task,tier,macro_f1,n_test
+TF-IDF + LogReg,epilepsy_type,silver,0.6464792086424023,1290
+TF-IDF + LogReg,epilepsy_type,gold,0.5531301215124744,390
+TF-IDF + LogReg,epilepsy_type,bronze,0.5924456930691582,6194
+TF-IDF + LogReg,seizure_type,silver,0.5344867413945129,962
+TF-IDF + LogReg,seizure_type,gold,0.6272764591730109,425
+TF-IDF + LogReg,seizure_type,bronze,0.5067908619817654,4998
+TF-IDF + LogReg,ez_localization,silver,0.5613314429522436,1051
+TF-IDF + LogReg,ez_localization,gold,0.6294679910896743,401
+TF-IDF + LogReg,ez_localization,bronze,0.6031837967237798,3457
+TF-IDF + LogReg,aed_response,silver,0.4195489963871654,738
+TF-IDF + LogReg,aed_response,gold,0.4226814644725092,401
+TF-IDF + LogReg,aed_response,bronze,0.39021312766906924,2467
+TF-IDF + LogReg,surgery_outcome,silver,0.4579100145137881,249
+TF-IDF + LogReg,surgery_outcome,gold,0.4722077922077922,127
+TF-IDF + LogReg,surgery_outcome,bronze,0.4716460946985026,633
+TF-IDF + LogReg,status_epilepticus,silver,0.3651721897335933,42
+TF-IDF + LogReg,status_epilepticus,gold,0.4968511431059271,121
+TF-IDF + LogReg,status_epilepticus,bronze,0.40464023692666906,243
+PubMedBERT-base,epilepsy_type,silver,0.6618332445522479,1290
+PubMedBERT-base,epilepsy_type,gold,0.6451372842995879,390
+PubMedBERT-base,epilepsy_type,bronze,0.6518146857187239,6194
+PubMedBERT-base,seizure_type,silver,0.545788374494278,962
+PubMedBERT-base,seizure_type,gold,0.706732172015192,425
+PubMedBERT-base,seizure_type,bronze,0.5374369641155393,4998
+PubMedBERT-base,ez_localization,silver,0.5829134939205738,1051
+PubMedBERT-base,ez_localization,gold,0.7327850562344492,401
+PubMedBERT-base,ez_localization,bronze,0.6662228718761308,3457
+PubMedBERT-base,aed_response,silver,0.3924732357031835,738
+PubMedBERT-base,aed_response,gold,0.46560642468269875,401
+PubMedBERT-base,aed_response,bronze,0.36418199149190034,2467
+PubMedBERT-base,surgery_outcome,silver,0.4300928027150564,249
+PubMedBERT-base,surgery_outcome,gold,0.4708751288773307,127
+PubMedBERT-base,surgery_outcome,bronze,0.49382443212566035,633
+PubMedBERT-base,status_epilepticus,silver,0.31694818103086836,42
+PubMedBERT-base,status_epilepticus,gold,0.472278493032277,121
+PubMedBERT-base,status_epilepticus,bronze,0.2698889037905372,243
+PubMedBERT-base (strong),epilepsy_type,silver,0.654412352379608,1290
+PubMedBERT-base (strong),epilepsy_type,gold,0.6431515663867807,390
+PubMedBERT-base (strong),epilepsy_type,bronze,0.6459900636566926,6194
+PubMedBERT-base (strong),seizure_type,silver,0.5799363037632984,962
+PubMedBERT-base (strong),seizure_type,gold,0.6860781762097551,425
+PubMedBERT-base (strong),seizure_type,bronze,0.541370964313723,4998
+PubMedBERT-base (strong),ez_localization,silver,0.6053721937014893,1051
+PubMedBERT-base (strong),ez_localization,gold,0.7303671057436066,401
+PubMedBERT-base (strong),ez_localization,bronze,0.6443228965962425,3457
+PubMedBERT-base (strong),aed_response,silver,0.40006226572983355,738
+PubMedBERT-base (strong),aed_response,gold,0.4114240673177343,401
+PubMedBERT-base (strong),aed_response,bronze,0.38737337145844747,2467
+PubMedBERT-base (strong),surgery_outcome,silver,0.48255046839952503,249
+PubMedBERT-base (strong),surgery_outcome,gold,0.4314204314204314,127
+PubMedBERT-base (strong),surgery_outcome,bronze,0.4691643435098932,633
+PubMedBERT-base (strong),status_epilepticus,silver,0.5803689064558629,42
+PubMedBERT-base (strong),status_epilepticus,gold,0.6485024970226168,121
+PubMedBERT-base (strong),status_epilepticus,bronze,0.336352579543241,243
+Bio_ClinicalBERT,epilepsy_type,silver,0.643211262841732,1290
+Bio_ClinicalBERT,epilepsy_type,gold,0.641130251153843,390
+Bio_ClinicalBERT,epilepsy_type,bronze,0.6487860483208021,6194
+Bio_ClinicalBERT,seizure_type,silver,0.5761104448835853,962
+Bio_ClinicalBERT,seizure_type,gold,0.7124544067588628,425
+Bio_ClinicalBERT,seizure_type,bronze,0.5402435750681155,4998
+Bio_ClinicalBERT,ez_localization,silver,0.6046108083577441,1051
+Bio_ClinicalBERT,ez_localization,gold,0.6610812871072789,401
+Bio_ClinicalBERT,ez_localization,bronze,0.6427883011923042,3457
+Bio_ClinicalBERT,aed_response,silver,0.4204413472706155,738
+Bio_ClinicalBERT,aed_response,gold,0.4754230637170746,401
+Bio_ClinicalBERT,aed_response,bronze,0.34476212902825426,2467
+Bio_ClinicalBERT,surgery_outcome,silver,0.5675515773803843,249
+Bio_ClinicalBERT,surgery_outcome,gold,0.4541675473825125,127
+Bio_ClinicalBERT,surgery_outcome,bronze,0.5388701997109758,633
+Bio_ClinicalBERT,status_epilepticus,silver,0.25727866904337493,42
+Bio_ClinicalBERT,status_epilepticus,gold,0.3694569456945695,121
+Bio_ClinicalBERT,status_epilepticus,bronze,0.2933295085102314,243
+Bio_ClinicalBERT (strong),epilepsy_type,silver,0.623498507849601,1290
+Bio_ClinicalBERT (strong),epilepsy_type,gold,0.6097206779588273,390
+Bio_ClinicalBERT (strong),epilepsy_type,bronze,0.6542447646878079,6194
+Bio_ClinicalBERT (strong),seizure_type,silver,0.5307206964022102,962
+Bio_ClinicalBERT (strong),seizure_type,gold,0.5560273430310692,425
+Bio_ClinicalBERT (strong),seizure_type,bronze,0.5407357025760908,4998
+Bio_ClinicalBERT (strong),ez_localization,silver,0.6194864159455984,1051
+Bio_ClinicalBERT (strong),ez_localization,gold,0.7020174887947852,401
+Bio_ClinicalBERT (strong),ez_localization,bronze,0.6541324710175962,3457
+Bio_ClinicalBERT (strong),aed_response,silver,0.3916761148904006,738
+Bio_ClinicalBERT (strong),aed_response,gold,0.430862497358661,401
+Bio_ClinicalBERT (strong),aed_response,bronze,0.38254948692701785,2467
+Bio_ClinicalBERT (strong),surgery_outcome,silver,0.40826422231922016,249
+Bio_ClinicalBERT (strong),surgery_outcome,gold,0.5779081133919843,127
+Bio_ClinicalBERT (strong),surgery_outcome,bronze,0.5449387900226569,633
+Bio_ClinicalBERT (strong),status_epilepticus,silver,0.20476190476190478,42
+Bio_ClinicalBERT (strong),status_epilepticus,gold,0.2926761347813979,121
+Bio_ClinicalBERT (strong),status_epilepticus,bronze,0.37010368719992587,243
+BiomedBERT-large,epilepsy_type,silver,0.6531630054567352,1290
+BiomedBERT-large,epilepsy_type,gold,0.6649852852209903,390
+BiomedBERT-large,epilepsy_type,bronze,0.6699913426427563,6194
+BiomedBERT-large,seizure_type,silver,0.5470842356037261,962
+BiomedBERT-large,seizure_type,gold,0.734706707733299,425
+BiomedBERT-large,seizure_type,bronze,0.5545159313337319,4998
+BiomedBERT-large,ez_localization,silver,0.6215422752695313,1051
+BiomedBERT-large,ez_localization,gold,0.7523831471191679,401
+BiomedBERT-large,ez_localization,bronze,0.6709338337006994,3457
+BiomedBERT-large,aed_response,silver,0.42726843665479425,738
+BiomedBERT-large,aed_response,gold,0.4861479571786604,401
+BiomedBERT-large,aed_response,bronze,0.39684169534911956,2467
+BiomedBERT-large,surgery_outcome,silver,0.45868969660332376,249
+BiomedBERT-large,surgery_outcome,gold,0.4783726930151729,127
+BiomedBERT-large,surgery_outcome,bronze,0.5002474379579039,633
+BiomedBERT-large,status_epilepticus,silver,0.3823595856116182,42
+BiomedBERT-large,status_epilepticus,gold,0.383498298543133,121
+BiomedBERT-large,status_epilepticus,bronze,0.3024626977795828,243
+BiomedBERT-large (strong),epilepsy_type,silver,0.6543798505184817,1290
+BiomedBERT-large (strong),epilepsy_type,gold,0.6552172928319717,390
+BiomedBERT-large (strong),epilepsy_type,bronze,0.6739549283092131,6194
+BiomedBERT-large (strong),seizure_type,silver,0.5361951725807053,962
+BiomedBERT-large (strong),seizure_type,gold,0.7254985737363856,425
+BiomedBERT-large (strong),seizure_type,bronze,0.5440617217903758,4998
+BiomedBERT-large (strong),ez_localization,silver,0.6312467255603819,1051
+BiomedBERT-large (strong),ez_localization,gold,0.7287195021988798,401
+BiomedBERT-large (strong),ez_localization,bronze,0.6689980172474312,3457
+BiomedBERT-large (strong),aed_response,silver,0.42044637940207785,738
+BiomedBERT-large (strong),aed_response,gold,0.4052488665035822,401
+BiomedBERT-large (strong),aed_response,bronze,0.3959821451452812,2467
+BiomedBERT-large (strong),surgery_outcome,silver,0.3774158670090553,249
+BiomedBERT-large (strong),surgery_outcome,gold,0.48427283364305873,127
+BiomedBERT-large (strong),surgery_outcome,bronze,0.4647005637698117,633
+BiomedBERT-large (strong),status_epilepticus,silver,0.6029239766081871,42
+BiomedBERT-large (strong),status_epilepticus,gold,0.5796495956873315,121
+BiomedBERT-large (strong),status_epilepticus,bronze,0.3886275124807235,243
+Text-encoder ensemble (3-model strong),epilepsy_type,silver,0.6726341531894513,1290
+Text-encoder ensemble (3-model strong),epilepsy_type,gold,0.6542449307315477,390
+Text-encoder ensemble (3-model strong),epilepsy_type,bronze,0.6821174909143465,6194
+Text-encoder ensemble (3-model strong),seizure_type,silver,0.5635487915334445,962
+Text-encoder ensemble (3-model strong),seizure_type,gold,0.7828204900830599,425
+Text-encoder ensemble (3-model strong),seizure_type,bronze,0.5523722445972867,4998
+Text-encoder ensemble (3-model strong),ez_localization,silver,0.6218296086770388,1051
+Text-encoder ensemble (3-model strong),ez_localization,gold,0.751998600298608,401
+Text-encoder ensemble (3-model strong),ez_localization,bronze,0.6783825161115824,3457
+Text-encoder ensemble (3-model strong),aed_response,silver,0.408824292667483,738
+Text-encoder ensemble (3-model strong),aed_response,gold,0.4135033732607245,401
+Text-encoder ensemble (3-model strong),aed_response,bronze,0.3949041583957494,2467
+Text-encoder ensemble (3-model strong),surgery_outcome,silver,0.44630477436232835,249
+Text-encoder ensemble (3-model strong),surgery_outcome,gold,0.4502164502164502,127
+Text-encoder ensemble (3-model strong),surgery_outcome,bronze,0.5120823849701412,633
+Text-encoder ensemble (3-model strong),status_epilepticus,silver,0.6032125768967873,42
+Text-encoder ensemble (3-model strong),status_epilepticus,gold,0.5503265492635945,121
+Text-encoder ensemble (3-model strong),status_epilepticus,bronze,0.35768668204897586,243
+Llama-3.1-8B + LoRA,epilepsy_type,silver,0.6483539481497702,1290
+Llama-3.1-8B + LoRA,epilepsy_type,gold,0.6135181637033604,390
+Llama-3.1-8B + LoRA,epilepsy_type,bronze,0.6436536563666497,6194
+Llama-3.1-8B + LoRA,seizure_type,silver,0.539615397575452,962
+Llama-3.1-8B + LoRA,seizure_type,gold,0.7325239602680009,425
+Llama-3.1-8B + LoRA,seizure_type,bronze,0.5384636717717688,4998
+Llama-3.1-8B + LoRA,ez_localization,silver,0.6198450792800001,1051
+Llama-3.1-8B + LoRA,ez_localization,gold,0.7360202638111509,401
+Llama-3.1-8B + LoRA,ez_localization,bronze,0.5893840454392556,3457
+Llama-3.1-8B + LoRA,aed_response,silver,0.41380724172607336,738
+Llama-3.1-8B + LoRA,aed_response,gold,0.47283851860604686,401
+Llama-3.1-8B + LoRA,aed_response,bronze,0.401972558236195,2467
+Llama-3.1-8B + LoRA,surgery_outcome,silver,0.3813443098974083,249
+Llama-3.1-8B + LoRA,surgery_outcome,gold,0.6130501222002034,127
+Llama-3.1-8B + LoRA,surgery_outcome,bronze,0.47576065557236474,633
+Llama-3.1-8B + LoRA,status_epilepticus,silver,0.4283538424615877,42
+Llama-3.1-8B + LoRA,status_epilepticus,gold,0.5033385514165134,121
+Llama-3.1-8B + LoRA,status_epilepticus,bronze,0.3997305503574603,243
+DeBERTa-v3-large,epilepsy_type,silver,0.18765133171912832,1290
+DeBERTa-v3-large,epilepsy_type,gold,0.18032786885245902,390
+DeBERTa-v3-large,epilepsy_type,bronze,0.1605655414291977,6194
+DeBERTa-v3-large,seizure_type,silver,0.16758811333794058,962
+DeBERTa-v3-large,seizure_type,gold,0.23009758602978944,425
+DeBERTa-v3-large,seizure_type,bronze,0.13368513632365875,4998
+DeBERTa-v3-large,ez_localization,silver,0.15336411609498682,1051
+DeBERTa-v3-large,ez_localization,gold,0.15549828178694158,401
+DeBERTa-v3-large,ez_localization,bronze,0.14235464514794124,3457
+DeBERTa-v3-large,aed_response,silver,0.18289085545722714,738
+DeBERTa-v3-large,aed_response,gold,0.2240618101545254,401
+DeBERTa-v3-large,aed_response,bronze,0.19406130268199231,2467
+DeBERTa-v3-large,surgery_outcome,silver,0.4028776978417266,249
+DeBERTa-v3-large,surgery_outcome,gold,0.37745098039215685,127
+DeBERTa-v3-large,surgery_outcome,bronze,0.3866279069767442,633
+DeBERTa-v3-large,status_epilepticus,silver,0.13836477987421383,42
+DeBERTa-v3-large,status_epilepticus,gold,0.17777777777777778,121
+DeBERTa-v3-large,status_epilepticus,bronze,0.17125382262996944,243
+MedSigLIP-MRI (LR),epilepsy_type,silver,0.36490698843640024,105
+MedSigLIP-MRI (LR),epilepsy_type,gold,0.2390868504242693,273
+MedSigLIP-MRI (LR),epilepsy_type,bronze,0.42686870476558636,270
+MedSigLIP-MRI (LR),seizure_type,silver,0.5465807810727596,123
+MedSigLIP-MRI (LR),seizure_type,gold,0.3026162853910153,293
+MedSigLIP-MRI (LR),seizure_type,bronze,0.28587627445577296,184
+MedSigLIP-MRI (LR),ez_localization,silver,0.498051948051948,49
+MedSigLIP-MRI (LR),ez_localization,gold,0.37274795970448144,275
+MedSigLIP-MRI (LR),ez_localization,bronze,0.31221707249958186,102
+MedSigLIP-MRI (LR),aed_response,silver,0.30038759689922484,67
+MedSigLIP-MRI (LR),aed_response,gold,0.39678501082772466,280
+MedSigLIP-MRI (LR),aed_response,bronze,0.34155844155844156,35
+MedSigLIP-MRI (LR),surgery_outcome,silver,0.1,9
+MedSigLIP-MRI (LR),surgery_outcome,gold,0.44999999999999996,99
+MedSigLIP-MRI (LR),surgery_outcome,bronze,0.0,1
+MedSigLIP-MRI (LR),status_epilepticus,silver,0.5,4
+MedSigLIP-MRI (LR),status_epilepticus,gold,0.317989417989418,74
+MedSigLIP-MRI (LR),status_epilepticus,bronze,0.5,4
+MedSigLIP-EEG (LR),epilepsy_type,silver,0.41468253968253965,46
+MedSigLIP-EEG (LR),epilepsy_type,gold,0.2783633862345358,206
+MedSigLIP-EEG (LR),epilepsy_type,bronze,0.326614552232054,166
+MedSigLIP-EEG (LR),seizure_type,silver,0.36761363636363636,67
+MedSigLIP-EEG (LR),seizure_type,gold,0.3339974457215837,217
+MedSigLIP-EEG (LR),seizure_type,bronze,0.45765559018571067,141
+MedSigLIP-EEG (LR),ez_localization,silver,0.20555555555555555,26
+MedSigLIP-EEG (LR),ez_localization,gold,0.3334368874054166,209
+MedSigLIP-EEG (LR),ez_localization,bronze,0.411051051051051,37
+MedSigLIP-EEG (LR),aed_response,silver,0.1992337164750958,65
+MedSigLIP-EEG (LR),aed_response,gold,0.27821359155299513,208
+MedSigLIP-EEG (LR),aed_response,bronze,0.3602693602693603,30
+MedSigLIP-EEG (LR),surgery_outcome,silver,0.7424242424242424,17
+MedSigLIP-EEG (LR),surgery_outcome,gold,0.3185714285714286,53
+MedSigLIP-EEG (LR),surgery_outcome,bronze,,0
+MedSigLIP-EEG (LR),status_epilepticus,silver,0.3333333333333333,2
+MedSigLIP-EEG (LR),status_epilepticus,gold,0.23797979797979796,79
+MedSigLIP-EEG (LR),status_epilepticus,bronze,0.3333333333333333,2
+MedSigLIP-MRI (MLP),epilepsy_type,silver,0.2721661054994388,105
+MedSigLIP-MRI (MLP),epilepsy_type,gold,0.289859817282176,273
+MedSigLIP-MRI (MLP),epilepsy_type,bronze,0.42311533273814017,270
+MedSigLIP-MRI (MLP),seizure_type,silver,0.4386901270772238,123
+MedSigLIP-MRI (MLP),seizure_type,gold,0.3256757522276093,293
+MedSigLIP-MRI (MLP),seizure_type,bronze,0.23262708996141612,184
+MedSigLIP-MRI (MLP),ez_localization,silver,0.5782100465604302,49
+MedSigLIP-MRI (MLP),ez_localization,gold,0.4380799857234283,275
+MedSigLIP-MRI (MLP),ez_localization,bronze,0.47277432712215317,102
+MedSigLIP-MRI (MLP),aed_response,silver,0.1899262620533182,67
+MedSigLIP-MRI (MLP),aed_response,gold,0.39948235849764385,280
+MedSigLIP-MRI (MLP),aed_response,bronze,0.38095238095238093,35
+MedSigLIP-MRI (MLP),surgery_outcome,silver,0.18181818181818182,9
+MedSigLIP-MRI (MLP),surgery_outcome,gold,0.4567735641994879,99
+MedSigLIP-MRI (MLP),surgery_outcome,bronze,0.0,1
+MedSigLIP-MRI (MLP),status_epilepticus,silver,0.5,4
+MedSigLIP-MRI (MLP),status_epilepticus,gold,0.33138401559454195,74
+MedSigLIP-MRI (MLP),status_epilepticus,bronze,0.13333333333333333,4
+MedSigLIP-EEG (MLP),epilepsy_type,silver,0.28501228501228504,46
+MedSigLIP-EEG (MLP),epilepsy_type,gold,0.26743881943372605,206
+MedSigLIP-EEG (MLP),epilepsy_type,bronze,0.2569916267942584,166
+MedSigLIP-EEG (MLP),seizure_type,silver,0.512118018967334,67
+MedSigLIP-EEG (MLP),seizure_type,gold,0.3597014925373134,217
+MedSigLIP-EEG (MLP),seizure_type,bronze,0.4168136390358612,141
+MedSigLIP-EEG (MLP),ez_localization,silver,0.22962962962962963,26
+MedSigLIP-EEG (MLP),ez_localization,gold,0.28999786169836933,209
+MedSigLIP-EEG (MLP),ez_localization,bronze,0.3407834101382488,37
+MedSigLIP-EEG (MLP),aed_response,silver,0.20022948938611587,65
+MedSigLIP-EEG (MLP),aed_response,gold,0.2432428575505894,208
+MedSigLIP-EEG (MLP),aed_response,bronze,0.4276094276094276,30
+MedSigLIP-EEG (MLP),surgery_outcome,silver,0.6886446886446886,17
+MedSigLIP-EEG (MLP),surgery_outcome,gold,0.5077399380804953,53
+MedSigLIP-EEG (MLP),surgery_outcome,bronze,,0
+MedSigLIP-EEG (MLP),status_epilepticus,silver,0.3333333333333333,2
+MedSigLIP-EEG (MLP),status_epilepticus,gold,0.35081754897199285,79
+MedSigLIP-EEG (MLP),status_epilepticus,bronze,0.3333333333333333,2
+BiomedCLIP-MRI (LR),epilepsy_type,silver,0.28502747252747257,105
+BiomedCLIP-MRI (LR),epilepsy_type,gold,0.244403434525174,273
+BiomedCLIP-MRI (LR),epilepsy_type,bronze,0.3766555606584091,270
+BiomedCLIP-MRI (LR),seizure_type,silver,0.5396633423240961,123
+BiomedCLIP-MRI (LR),seizure_type,gold,0.32396433571723254,293
+BiomedCLIP-MRI (LR),seizure_type,bronze,0.29346513491851456,184
+BiomedCLIP-MRI (LR),ez_localization,silver,0.37030075187969924,49
+BiomedCLIP-MRI (LR),ez_localization,gold,0.38353326247630853,275
+BiomedCLIP-MRI (LR),ez_localization,bronze,0.42316433566433564,102
+BiomedCLIP-MRI (LR),aed_response,silver,0.31093544137022394,67
+BiomedCLIP-MRI (LR),aed_response,gold,0.3587037560391349,280
+BiomedCLIP-MRI (LR),aed_response,bronze,0.37253968253968256,35
+BiomedCLIP-MRI (LR),surgery_outcome,silver,0.1,9
+BiomedCLIP-MRI (LR),surgery_outcome,gold,0.40975609756097564,99
+BiomedCLIP-MRI (LR),surgery_outcome,bronze,0.0,1
+BiomedCLIP-MRI (LR),status_epilepticus,silver,0.0,4
+BiomedCLIP-MRI (LR),status_epilepticus,gold,0.33238929284002194,74
+BiomedCLIP-MRI (LR),status_epilepticus,bronze,0.13333333333333333,4
+BiomedCLIP-EEG (LR),epilepsy_type,silver,0.25081300813008134,46
+BiomedCLIP-EEG (LR),epilepsy_type,gold,0.30153373074871737,206
+BiomedCLIP-EEG (LR),epilepsy_type,bronze,0.32151991614255765,166
+BiomedCLIP-EEG (LR),seizure_type,silver,0.3583068783068783,67
+BiomedCLIP-EEG (LR),seizure_type,gold,0.3962406015037594,217
+BiomedCLIP-EEG (LR),seizure_type,bronze,0.4014035941746785,141
+BiomedCLIP-EEG (LR),ez_localization,silver,0.20995670995670995,26
+BiomedCLIP-EEG (LR),ez_localization,gold,0.29050035763666726,209
+BiomedCLIP-EEG (LR),ez_localization,bronze,0.12352941176470589,37
+BiomedCLIP-EEG (LR),aed_response,silver,0.2860907208733296,65
+BiomedCLIP-EEG (LR),aed_response,gold,0.31242553493862396,208
+BiomedCLIP-EEG (LR),aed_response,bronze,0.2934865900383142,30
+BiomedCLIP-EEG (LR),surgery_outcome,silver,0.5952380952380952,17
+BiomedCLIP-EEG (LR),surgery_outcome,gold,0.4142602495543672,53
+BiomedCLIP-EEG (LR),surgery_outcome,bronze,,0
+BiomedCLIP-EEG (LR),status_epilepticus,silver,0.3333333333333333,2
+BiomedCLIP-EEG (LR),status_epilepticus,gold,0.26957719970424143,79
+BiomedCLIP-EEG (LR),status_epilepticus,bronze,0.3333333333333333,2
+BiomedCLIP-MRI (MLP),epilepsy_type,silver,0.26507035107234156,105
+BiomedCLIP-MRI (MLP),epilepsy_type,gold,0.25134464691426717,273
+BiomedCLIP-MRI (MLP),epilepsy_type,bronze,0.34136485224514657,270
+BiomedCLIP-MRI (MLP),seizure_type,silver,0.4560503823661719,123
+BiomedCLIP-MRI (MLP),seizure_type,gold,0.35447420634920634,293
+BiomedCLIP-MRI (MLP),seizure_type,bronze,0.2946777381321409,184
+BiomedCLIP-MRI (MLP),ez_localization,silver,0.20640935419260545,49
+BiomedCLIP-MRI (MLP),ez_localization,gold,0.34860424235321696,275
+BiomedCLIP-MRI (MLP),ez_localization,bronze,0.4261086593610023,102
+BiomedCLIP-MRI (MLP),aed_response,silver,0.3466721957287995,67
+BiomedCLIP-MRI (MLP),aed_response,gold,0.3245876123046905,280
+BiomedCLIP-MRI (MLP),aed_response,bronze,0.364062329737387,35
+BiomedCLIP-MRI (MLP),surgery_outcome,silver,0.325,9
+BiomedCLIP-MRI (MLP),surgery_outcome,gold,0.5599999999999999,99
+BiomedCLIP-MRI (MLP),surgery_outcome,bronze,0.0,1
+BiomedCLIP-MRI (MLP),status_epilepticus,silver,0.16666666666666666,4
+BiomedCLIP-MRI (MLP),status_epilepticus,gold,0.2425512744154793,74
+BiomedCLIP-MRI (MLP),status_epilepticus,bronze,0.16666666666666666,4
+BiomedCLIP-EEG (MLP),epilepsy_type,silver,0.2622739018087855,46
+BiomedCLIP-EEG (MLP),epilepsy_type,gold,0.2878990509059534,206
+BiomedCLIP-EEG (MLP),epilepsy_type,bronze,0.32440470727893256,166
+BiomedCLIP-EEG (MLP),seizure_type,silver,0.35148321623731454,67
+BiomedCLIP-EEG (MLP),seizure_type,gold,0.39121924966420724,217
+BiomedCLIP-EEG (MLP),seizure_type,bronze,0.383911513323278,141
+BiomedCLIP-EEG (MLP),ez_localization,silver,0.22233201581027667,26
+BiomedCLIP-EEG (MLP),ez_localization,gold,0.3172800548431958,209
+BiomedCLIP-EEG (MLP),ez_localization,bronze,0.15229885057471265,37
+BiomedCLIP-EEG (MLP),aed_response,silver,0.28032559062934287,65
+BiomedCLIP-EEG (MLP),aed_response,gold,0.2522919274221609,208
+BiomedCLIP-EEG (MLP),aed_response,bronze,0.2913165266106443,30
+BiomedCLIP-EEG (MLP),surgery_outcome,silver,0.39285714285714285,17
+BiomedCLIP-EEG (MLP),surgery_outcome,gold,0.4142602495543672,53
+BiomedCLIP-EEG (MLP),surgery_outcome,bronze,,0
+BiomedCLIP-EEG (MLP),status_epilepticus,silver,0.3333333333333333,2
+BiomedCLIP-EEG (MLP),status_epilepticus,gold,0.2601930357809417,79
+BiomedCLIP-EEG (MLP),status_epilepticus,bronze,0.3333333333333333,2
+Late fusion (text+MRI+EEG),epilepsy_type,silver,0.6258881116037625,1290
+Late fusion (text+MRI+EEG),epilepsy_type,gold,0.5396892026914983,390
+Late fusion (text+MRI+EEG),epilepsy_type,bronze,0.5905685845630825,6194
+Late fusion (text+MRI+EEG),seizure_type,silver,0.5315916304180376,962
+Late fusion (text+MRI+EEG),seizure_type,gold,0.573714902079752,425
+Late fusion (text+MRI+EEG),seizure_type,bronze,0.503454866201171,4998
+Late fusion (text+MRI+EEG),ez_localization,silver,0.5669385070064187,1051
+Late fusion (text+MRI+EEG),ez_localization,gold,0.6034210653616376,401
+Late fusion (text+MRI+EEG),ez_localization,bronze,0.6040336461233028,3457
+Late fusion (text+MRI+EEG),aed_response,silver,0.4131899558766499,738
+Late fusion (text+MRI+EEG),aed_response,gold,0.4643159437293111,401
+Late fusion (text+MRI+EEG),aed_response,bronze,0.3910505960389399,2467
+Late fusion (text+MRI+EEG),surgery_outcome,silver,0.46738844280637093,249
+Late fusion (text+MRI+EEG),surgery_outcome,gold,0.4205652025876745,127
+Late fusion (text+MRI+EEG),surgery_outcome,bronze,0.4716460946985026,633
+Late fusion (text+MRI+EEG),status_epilepticus,silver,0.35873015873015873,42
+Late fusion (text+MRI+EEG),status_epilepticus,gold,0.4903520541818414,121
+Late fusion (text+MRI+EEG),status_epilepticus,bronze,0.40464023692666906,243
+PMB-text + MedSigLIP late fusion,epilepsy_type,silver,0.42372104014030637,1290
+PMB-text + MedSigLIP late fusion,epilepsy_type,gold,0.28621524998500486,390
+PMB-text + MedSigLIP late fusion,epilepsy_type,bronze,0.4050162301917235,6194
+PMB-text + MedSigLIP late fusion,seizure_type,silver,0.4123984181736959,962
+PMB-text + MedSigLIP late fusion,seizure_type,gold,0.41870573581389864,425
+PMB-text + MedSigLIP late fusion,seizure_type,bronze,0.3581928514422757,4998
+PMB-text + MedSigLIP late fusion,ez_localization,silver,0.2775155468508797,1051
+PMB-text + MedSigLIP late fusion,ez_localization,gold,0.41616836594431106,401
+PMB-text + MedSigLIP late fusion,ez_localization,bronze,0.27392173564674194,3457
+PMB-text + MedSigLIP late fusion,aed_response,silver,0.36889933861404645,738
+PMB-text + MedSigLIP late fusion,aed_response,gold,0.4348784454716658,401
+PMB-text + MedSigLIP late fusion,aed_response,bronze,0.32500008107472617,2467
+PMB-text + MedSigLIP late fusion,surgery_outcome,silver,0.3859831278390655,249
+PMB-text + MedSigLIP late fusion,surgery_outcome,gold,0.49575575027382257,127
+PMB-text + MedSigLIP late fusion,surgery_outcome,bronze,0.5116728457476688,633
+PMB-text + MedSigLIP late fusion,status_epilepticus,silver,0.364274116962289,42
+PMB-text + MedSigLIP late fusion,status_epilepticus,gold,0.391005291005291,121
+PMB-text + MedSigLIP late fusion,status_epilepticus,bronze,0.3840736956486482,243
+Joint MLP (PMB+MedSigLIP),epilepsy_type,silver,0.480105893995205,1290
+Joint MLP (PMB+MedSigLIP),epilepsy_type,gold,0.27552573222446003,390
+Joint MLP (PMB+MedSigLIP),epilepsy_type,bronze,0.42895697630747676,6194
+Joint MLP (PMB+MedSigLIP),seizure_type,silver,0.4240631742807864,962
+Joint MLP (PMB+MedSigLIP),seizure_type,gold,0.39864221550689233,425
+Joint MLP (PMB+MedSigLIP),seizure_type,bronze,0.3349617766507963,4998
+Joint MLP (PMB+MedSigLIP),ez_localization,silver,0.36708657643565595,1051
+Joint MLP (PMB+MedSigLIP),ez_localization,gold,0.366911418330292,401
+Joint MLP (PMB+MedSigLIP),ez_localization,bronze,0.3969730307645004,3457
+Joint MLP (PMB+MedSigLIP),aed_response,silver,0.4275603253349533,738
+Joint MLP (PMB+MedSigLIP),aed_response,gold,0.3169895314645755,401
+Joint MLP (PMB+MedSigLIP),aed_response,bronze,0.3936085140848294,2467
+Joint MLP (PMB+MedSigLIP),surgery_outcome,silver,0.5698370925295058,249
+Joint MLP (PMB+MedSigLIP),surgery_outcome,gold,0.5006341958396753,127
+Joint MLP (PMB+MedSigLIP),surgery_outcome,bronze,0.4848299498544161,633
+Joint MLP (PMB+MedSigLIP),status_epilepticus,silver,0.4291666666666667,42
+Joint MLP (PMB+MedSigLIP),status_epilepticus,gold,0.39801119224448184,121
+Joint MLP (PMB+MedSigLIP),status_epilepticus,bronze,0.3471881031759958,243
+Joint MLP (PMB+BiomedCLIP),epilepsy_type,silver,0.5088259888516842,1290
+Joint MLP (PMB+BiomedCLIP),epilepsy_type,gold,0.2986774922104794,390
+Joint MLP (PMB+BiomedCLIP),epilepsy_type,bronze,0.43745111156799965,6194
+Joint MLP (PMB+BiomedCLIP),seizure_type,silver,0.4252338868922969,962
+Joint MLP (PMB+BiomedCLIP),seizure_type,gold,0.41001697261209125,425
+Joint MLP (PMB+BiomedCLIP),seizure_type,bronze,0.3286171100709067,4998
+Joint MLP (PMB+BiomedCLIP),ez_localization,silver,0.38675330010674747,1051
+Joint MLP (PMB+BiomedCLIP),ez_localization,gold,0.39388220377920335,401
+Joint MLP (PMB+BiomedCLIP),ez_localization,bronze,0.4124399695420282,3457
+Joint MLP (PMB+BiomedCLIP),aed_response,silver,0.41877369364895695,738
+Joint MLP (PMB+BiomedCLIP),aed_response,gold,0.34847949293187236,401
+Joint MLP (PMB+BiomedCLIP),aed_response,bronze,0.4006612063681873,2467
+Joint MLP (PMB+BiomedCLIP),surgery_outcome,silver,0.4797797392501417,249
+Joint MLP (PMB+BiomedCLIP),surgery_outcome,gold,0.4376006441223832,127
+Joint MLP (PMB+BiomedCLIP),surgery_outcome,bronze,0.44388566128637497,633
+Joint MLP (PMB+BiomedCLIP),status_epilepticus,silver,0.4001860712387028,42
+Joint MLP (PMB+BiomedCLIP),status_epilepticus,gold,0.4168157423971377,121
+Joint MLP (PMB+BiomedCLIP),status_epilepticus,bronze,0.3515184047187157,243
+Mistral-3.2-24B 0-shot+RAG,epilepsy_type,silver,0.5252335094504716,1290
+Mistral-3.2-24B 0-shot+RAG,epilepsy_type,gold,0.5573287357626185,390
+Mistral-3.2-24B 0-shot+RAG,epilepsy_type,bronze,0.6253587653833736,6194
+Mistral-3.2-24B 0-shot+RAG,seizure_type,silver,0.47851144746443236,962
+Mistral-3.2-24B 0-shot+RAG,seizure_type,gold,0.3688306214012089,425
+Mistral-3.2-24B 0-shot+RAG,seizure_type,bronze,0.5478473080456496,4998
+Mistral-3.2-24B 0-shot+RAG,ez_localization,silver,0.39954701936415726,1051
+Mistral-3.2-24B 0-shot+RAG,ez_localization,gold,0.4797334243901967,401
+Mistral-3.2-24B 0-shot+RAG,ez_localization,bronze,0.5054658698925613,3457
+Mistral-3.2-24B 0-shot+RAG,aed_response,silver,0.279814718084413,738
+Mistral-3.2-24B 0-shot+RAG,aed_response,gold,0.14495477824997274,401
+Mistral-3.2-24B 0-shot+RAG,aed_response,bronze,0.3014317640732933,2467
+Mistral-3.2-24B 0-shot+RAG,surgery_outcome,silver,0.0,249
+Mistral-3.2-24B 0-shot+RAG,surgery_outcome,gold,0.013071895424836602,127
+Mistral-3.2-24B 0-shot+RAG,surgery_outcome,bronze,0.0016666666666666668,633
+Mistral-3.2-24B 0-shot+RAG,status_epilepticus,silver,0.3630952380952381,42
+Mistral-3.2-24B 0-shot+RAG,status_epilepticus,gold,0.2799719887955182,121
+Mistral-3.2-24B 0-shot+RAG,status_epilepticus,bronze,0.23278754800889429,243
+Mistral-3.2-24B few-shot k=3,epilepsy_type,silver,0.5584159435949831,1290
+Mistral-3.2-24B few-shot k=3,epilepsy_type,gold,0.6020314309637838,390
+Mistral-3.2-24B few-shot k=3,epilepsy_type,bronze,0.6239273433269346,6194
+Mistral-3.2-24B few-shot k=3,seizure_type,silver,0.5006322730343961,962
+Mistral-3.2-24B few-shot k=3,seizure_type,gold,0.38074140429197995,425
+Mistral-3.2-24B few-shot k=3,seizure_type,bronze,0.5416769794072729,4998
+Mistral-3.2-24B few-shot k=3,ez_localization,silver,0.43450639181284023,1051
+Mistral-3.2-24B few-shot k=3,ez_localization,gold,0.5508897739040985,401
+Mistral-3.2-24B few-shot k=3,ez_localization,bronze,0.5230939033484574,3457
+Mistral-3.2-24B few-shot k=3,aed_response,silver,0.28743381193753403,738
+Mistral-3.2-24B few-shot k=3,aed_response,gold,0.14881276195363954,401
+Mistral-3.2-24B few-shot k=3,aed_response,bronze,0.30890566943959735,2467
+Mistral-3.2-24B few-shot k=3,surgery_outcome,silver,0.08649766075508651,249
+Mistral-3.2-24B few-shot k=3,surgery_outcome,gold,0.02115384615384615,127
+Mistral-3.2-24B few-shot k=3,surgery_outcome,bronze,0.07124550325001158,633
+Mistral-3.2-24B few-shot k=3,status_epilepticus,silver,0.3317384370015949,42
+Mistral-3.2-24B few-shot k=3,status_epilepticus,gold,0.3081547619047619,121
+Mistral-3.2-24B few-shot k=3,status_epilepticus,bronze,0.33453637865402575,243
+Llama-4-Scout-17B-16E 0-shot+RAG,epilepsy_type,silver,0.5925292943559461,1290
+Llama-4-Scout-17B-16E 0-shot+RAG,epilepsy_type,gold,0.5865118142689858,390
+Llama-4-Scout-17B-16E 0-shot+RAG,epilepsy_type,bronze,0.5871191210247826,6194
+Llama-4-Scout-17B-16E 0-shot+RAG,seizure_type,silver,0.46698024311335873,962
+Llama-4-Scout-17B-16E 0-shot+RAG,seizure_type,gold,0.5196179034747425,425
+Llama-4-Scout-17B-16E 0-shot+RAG,seizure_type,bronze,0.4887195054251517,4998
+Llama-4-Scout-17B-16E 0-shot+RAG,ez_localization,silver,0.42621531224007897,1051
+Llama-4-Scout-17B-16E 0-shot+RAG,ez_localization,gold,0.525272379269729,401
+Llama-4-Scout-17B-16E 0-shot+RAG,ez_localization,bronze,0.5188983671580624,3457
+Llama-4-Scout-17B-16E 0-shot+RAG,aed_response,silver,0.26611093638646127,738
+Llama-4-Scout-17B-16E 0-shot+RAG,aed_response,gold,0.14692700022156313,401
+Llama-4-Scout-17B-16E 0-shot+RAG,aed_response,bronze,0.28693519030529696,2467
+Llama-4-Scout-17B-16E 0-shot+RAG,surgery_outcome,silver,0.0,249
+Llama-4-Scout-17B-16E 0-shot+RAG,surgery_outcome,gold,0.013071895424836602,127
+Llama-4-Scout-17B-16E 0-shot+RAG,surgery_outcome,bronze,0.006584362139917695,633
+Llama-4-Scout-17B-16E 0-shot+RAG,status_epilepticus,silver,0.27403846153846156,42
+Llama-4-Scout-17B-16E 0-shot+RAG,status_epilepticus,gold,0.2292806203697293,121
+Llama-4-Scout-17B-16E 0-shot+RAG,status_epilepticus,bronze,0.21042629451689163,243
+GPT-OSS-120B 0-shot+RAG (v1),epilepsy_type,silver,0.5203910054072626,1290
+GPT-OSS-120B 0-shot+RAG (v1),epilepsy_type,gold,0.5024847648695443,390
+GPT-OSS-120B 0-shot+RAG (v1),epilepsy_type,bronze,0.5509380586412725,6194
+GPT-OSS-120B 0-shot+RAG (v1),seizure_type,silver,0.4404721798806532,962
+GPT-OSS-120B 0-shot+RAG (v1),seizure_type,gold,0.372082608179676,425
+GPT-OSS-120B 0-shot+RAG (v1),seizure_type,bronze,0.46407761489232013,4998
+GPT-OSS-120B 0-shot+RAG (v1),ez_localization,silver,0.3169363097074669,1051
+GPT-OSS-120B 0-shot+RAG (v1),ez_localization,gold,0.4366138179352473,401
+GPT-OSS-120B 0-shot+RAG (v1),ez_localization,bronze,0.4317035413214902,3457
+GPT-OSS-120B 0-shot+RAG (v1),aed_response,silver,0.25166161500939715,738
+GPT-OSS-120B 0-shot+RAG (v1),aed_response,gold,0.15403232540849712,401
+GPT-OSS-120B 0-shot+RAG (v1),aed_response,bronze,0.2630990120409596,2467
+GPT-OSS-120B 0-shot+RAG (v1),surgery_outcome,silver,0.030054644808743168,249
+GPT-OSS-120B 0-shot+RAG (v1),surgery_outcome,gold,0.015485739750445633,127
+GPT-OSS-120B 0-shot+RAG (v1),surgery_outcome,bronze,0.03883061965171645,633
+GPT-OSS-120B 0-shot+RAG (v1),status_epilepticus,silver,0.2051764705882353,42
+GPT-OSS-120B 0-shot+RAG (v1),status_epilepticus,gold,0.1980822264389627,121
+GPT-OSS-120B 0-shot+RAG (v1),status_epilepticus,bronze,0.20629789051634934,243
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),epilepsy_type,silver,0.5824169562656375,1290
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),epilepsy_type,gold,0.5192051345916127,390
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),epilepsy_type,bronze,0.5867422182347841,6194
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),seizure_type,silver,0.4918197664821865,962
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),seizure_type,gold,0.4394961249010882,425
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),seizure_type,bronze,0.497670495909831,4998
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),ez_localization,silver,0.41079444637294404,1051
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),ez_localization,gold,0.48619297676493245,401
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),ez_localization,bronze,0.509943040064604,3457
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),aed_response,silver,0.25213017077181044,738
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),aed_response,gold,0.14495477824997274,401
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),aed_response,bronze,0.25987280507503846,2467
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),surgery_outcome,silver,0.0029585798816568047,249
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),surgery_outcome,gold,0.00980392156862745,127
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),surgery_outcome,bronze,0.0058499873513787,633
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),status_epilepticus,silver,0.21904761904761902,42
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),status_epilepticus,gold,0.25975122992666855,121
+GPT-OSS-120B 0-shot+RAG (v2: strict+tolerant),status_epilepticus,bronze,0.22066055930568948,243
+Llama-3.1-8B 0-shot+RAG,epilepsy_type,silver,0.5002027475883793,1290
+Llama-3.1-8B 0-shot+RAG,epilepsy_type,gold,0.4897433139150007,390
+Llama-3.1-8B 0-shot+RAG,epilepsy_type,bronze,0.5418549621190101,6194
+Llama-3.1-8B 0-shot+RAG,seizure_type,silver,0.45302817713071625,962
+Llama-3.1-8B 0-shot+RAG,seizure_type,gold,0.40313540024522676,425
+Llama-3.1-8B 0-shot+RAG,seizure_type,bronze,0.473831359770673,4998
+Llama-3.1-8B 0-shot+RAG,ez_localization,silver,0.4112947691866716,1051
+Llama-3.1-8B 0-shot+RAG,ez_localization,gold,0.4847993897787949,401
+Llama-3.1-8B 0-shot+RAG,ez_localization,bronze,0.49609301703359093,3457
+Llama-3.1-8B 0-shot+RAG,aed_response,silver,0.27169133028817344,738
+Llama-3.1-8B 0-shot+RAG,aed_response,gold,0.17875895821159546,401
+Llama-3.1-8B 0-shot+RAG,aed_response,bronze,0.27779076917641304,2467
+Llama-3.1-8B 0-shot+RAG,surgery_outcome,silver,0.0,249
+Llama-3.1-8B 0-shot+RAG,surgery_outcome,gold,0.008547008547008546,127
+Llama-3.1-8B 0-shot+RAG,surgery_outcome,bronze,0.0016666666666666668,633
+Llama-3.1-8B 0-shot+RAG,status_epilepticus,silver,0.29696969696969694,42
+Llama-3.1-8B 0-shot+RAG,status_epilepticus,gold,0.2351888780460209,121
+Llama-3.1-8B 0-shot+RAG,status_epilepticus,bronze,0.2706298581764141,243
+Qwen2.5-7B 0-shot+RAG,epilepsy_type,silver,0.5094723681299838,1290
+Qwen2.5-7B 0-shot+RAG,epilepsy_type,gold,0.6182714881244412,390
+Qwen2.5-7B 0-shot+RAG,epilepsy_type,bronze,0.5427006136115224,6194
+Qwen2.5-7B 0-shot+RAG,seizure_type,silver,0.4408488002110391,962
+Qwen2.5-7B 0-shot+RAG,seizure_type,gold,0.419811320754717,425
+Qwen2.5-7B 0-shot+RAG,seizure_type,bronze,0.4451842772047857,4998
+Qwen2.5-7B 0-shot+RAG,ez_localization,silver,0.38307940483306097,1051
+Qwen2.5-7B 0-shot+RAG,ez_localization,gold,0.4473573608531426,401
+Qwen2.5-7B 0-shot+RAG,ez_localization,bronze,0.42441894473449826,3457
+Qwen2.5-7B 0-shot+RAG,aed_response,silver,0.2598961321943243,738
+Qwen2.5-7B 0-shot+RAG,aed_response,gold,0.1488090321042266,401
+Qwen2.5-7B 0-shot+RAG,aed_response,bronze,0.25644474005530543,2467
+Qwen2.5-7B 0-shot+RAG,surgery_outcome,silver,0.0,249
+Qwen2.5-7B 0-shot+RAG,surgery_outcome,gold,0.013071895424836602,127
+Qwen2.5-7B 0-shot+RAG,surgery_outcome,bronze,0.001658374792703151,633
+Qwen2.5-7B 0-shot+RAG,status_epilepticus,silver,0.12771929824561404,42
+Qwen2.5-7B 0-shot+RAG,status_epilepticus,gold,0.20476079948420373,121
+Qwen2.5-7B 0-shot+RAG,status_epilepticus,bronze,0.17694660734149054,243
+MedGemma-27B 0-shot+RAG,epilepsy_type,silver,0.5151482508472829,1290
+MedGemma-27B 0-shot+RAG,epilepsy_type,gold,0.57280570470489,390
+MedGemma-27B 0-shot+RAG,epilepsy_type,bronze,0.594566889655616,6194
+MedGemma-27B 0-shot+RAG,seizure_type,silver,0.47666123071100247,962
+MedGemma-27B 0-shot+RAG,seizure_type,gold,0.5096829649068456,425
+MedGemma-27B 0-shot+RAG,seizure_type,bronze,0.5179230920351086,4998
+MedGemma-27B 0-shot+RAG,ez_localization,silver,0.39551402562817106,1051
+MedGemma-27B 0-shot+RAG,ez_localization,gold,0.5138548325978805,401
+MedGemma-27B 0-shot+RAG,ez_localization,bronze,0.49231156083140626,3457
+MedGemma-27B 0-shot+RAG,aed_response,silver,0.262738792055967,738
+MedGemma-27B 0-shot+RAG,aed_response,gold,0.1699078227143127,401
+MedGemma-27B 0-shot+RAG,aed_response,bronze,0.27766401378362854,2467
+MedGemma-27B 0-shot+RAG,surgery_outcome,silver,0.008771929824561403,249
+MedGemma-27B 0-shot+RAG,surgery_outcome,gold,0.013071895424836602,127
+MedGemma-27B 0-shot+RAG,surgery_outcome,bronze,0.001658374792703151,633
+MedGemma-27B 0-shot+RAG,status_epilepticus,silver,0.28787878787878785,42
+MedGemma-27B 0-shot+RAG,status_epilepticus,gold,0.29004409769335143,121
+MedGemma-27B 0-shot+RAG,status_epilepticus,bronze,0.21524765420704509,243
+GPT-OSS-20B 0-shot+RAG,epilepsy_type,silver,0.5381497294500585,1290
+GPT-OSS-20B 0-shot+RAG,epilepsy_type,gold,0.5105703350039128,390
+GPT-OSS-20B 0-shot+RAG,epilepsy_type,bronze,0.6052579015288392,6194
+GPT-OSS-20B 0-shot+RAG,seizure_type,silver,0.46863643000897404,962
+GPT-OSS-20B 0-shot+RAG,seizure_type,gold,0.3520841737259648,425
+GPT-OSS-20B 0-shot+RAG,seizure_type,bronze,0.5007808326412693,4998
+GPT-OSS-20B 0-shot+RAG,ez_localization,silver,0.41651505193423927,1051
+GPT-OSS-20B 0-shot+RAG,ez_localization,gold,0.4959338255400601,401
+GPT-OSS-20B 0-shot+RAG,ez_localization,bronze,0.5027546689333353,3457
+GPT-OSS-20B 0-shot+RAG,aed_response,silver,0.2581650589496249,738
+GPT-OSS-20B 0-shot+RAG,aed_response,gold,0.15561309621933714,401
+GPT-OSS-20B 0-shot+RAG,aed_response,bronze,0.2801372364913599,2467
+GPT-OSS-20B 0-shot+RAG,surgery_outcome,silver,0.017142857142857144,249
+GPT-OSS-20B 0-shot+RAG,surgery_outcome,gold,0.021201976725649607,127
+GPT-OSS-20B 0-shot+RAG,surgery_outcome,bronze,0.0065520065520065516,633
+GPT-OSS-20B 0-shot+RAG,status_epilepticus,silver,0.21217391304347827,42
+GPT-OSS-20B 0-shot+RAG,status_epilepticus,gold,0.2706707086017431,121
+GPT-OSS-20B 0-shot+RAG,status_epilepticus,bronze,0.21566098620660562,243
+Qwen2.5-7B + LoRA,epilepsy_type,silver,0.6432730161331547,1290
+Qwen2.5-7B + LoRA,epilepsy_type,gold,0.5838001602242109,390
+Qwen2.5-7B + LoRA,epilepsy_type,bronze,0.6094536661009173,6194
+Qwen2.5-7B + LoRA,seizure_type,silver,0.4748600056344497,962
+Qwen2.5-7B + LoRA,seizure_type,gold,0.6526460088584297,425
+Qwen2.5-7B + LoRA,seizure_type,bronze,0.499884361851783,4998
+Qwen2.5-7B + LoRA,ez_localization,silver,0.6263594587996658,1051
+Qwen2.5-7B + LoRA,ez_localization,gold,0.7381165641150926,401
+Qwen2.5-7B + LoRA,ez_localization,bronze,0.6460827176353657,3457
+Qwen2.5-7B + LoRA,aed_response,silver,0.40673679191840995,738
+Qwen2.5-7B + LoRA,aed_response,gold,0.4147881445664794,401
+Qwen2.5-7B + LoRA,aed_response,bronze,0.38961206009956123,2467
+Qwen2.5-7B + LoRA,surgery_outcome,silver,0.3532678831043664,249
+Qwen2.5-7B + LoRA,surgery_outcome,gold,0.49528067560854444,127
+Qwen2.5-7B + LoRA,surgery_outcome,bronze,0.4469856404744678,633
+Qwen2.5-7B + LoRA,status_epilepticus,silver,0.3507070707070707,42
+Qwen2.5-7B + LoRA,status_epilepticus,gold,0.4548809308395432,121
+Qwen2.5-7B + LoRA,status_epilepticus,bronze,0.28742449693153915,243
+MedGemma-4B + LoRA,epilepsy_type,silver,0.6137102364499456,1290
+MedGemma-4B + LoRA,epilepsy_type,gold,0.6068715560238946,390
+MedGemma-4B + LoRA,epilepsy_type,bronze,0.6339278981647417,6194
+MedGemma-4B + LoRA,seizure_type,silver,0.49746859644676644,962
+MedGemma-4B + LoRA,seizure_type,gold,0.7147320710746183,425
+MedGemma-4B + LoRA,seizure_type,bronze,0.5469564034772725,4998
+MedGemma-4B + LoRA,ez_localization,silver,0.6044717140059206,1051
+MedGemma-4B + LoRA,ez_localization,gold,0.7971603629079769,401
+MedGemma-4B + LoRA,ez_localization,bronze,0.5180579438934555,3457
+MedGemma-4B + LoRA,aed_response,silver,0.3880484257842749,738
+MedGemma-4B + LoRA,aed_response,gold,0.4208222901800884,401
+MedGemma-4B + LoRA,aed_response,bronze,0.3781375563947212,2467
+MedGemma-4B + LoRA,surgery_outcome,silver,0.3891774891774892,249
+MedGemma-4B + LoRA,surgery_outcome,gold,0.5920877399138269,127
+MedGemma-4B + LoRA,surgery_outcome,bronze,0.4538614977122547,633
+MedGemma-4B + LoRA,status_epilepticus,silver,0.3158196956646569,42
+MedGemma-4B + LoRA,status_epilepticus,gold,0.5018881208397338,121
+MedGemma-4B + LoRA,status_epilepticus,bronze,0.45645369682132025,243
+GPT-OSS-20B + LoRA,epilepsy_type,silver,0.674548310660068,1290
+GPT-OSS-20B + LoRA,epilepsy_type,gold,0.6116574892682417,390
+GPT-OSS-20B + LoRA,epilepsy_type,bronze,0.6345139345268104,6194
+GPT-OSS-20B + LoRA,seizure_type,silver,0.5799004537459094,962
+GPT-OSS-20B + LoRA,seizure_type,gold,0.6761231718270713,425
+GPT-OSS-20B + LoRA,seizure_type,bronze,0.5342819383382643,4998
+GPT-OSS-20B + LoRA,ez_localization,silver,0.6258145695244712,1051
+GPT-OSS-20B + LoRA,ez_localization,gold,0.781209198791978,401
+GPT-OSS-20B + LoRA,ez_localization,bronze,0.5087955396435271,3457
+GPT-OSS-20B + LoRA,aed_response,silver,0.40584921761845827,738
+GPT-OSS-20B + LoRA,aed_response,gold,0.4240130893946155,401
+GPT-OSS-20B + LoRA,aed_response,bronze,0.3934726557679015,2467
+GPT-OSS-20B + LoRA,surgery_outcome,silver,0.35034787262510036,249
+GPT-OSS-20B + LoRA,surgery_outcome,gold,0.5644211479971526,127
+GPT-OSS-20B + LoRA,surgery_outcome,bronze,0.5147383274473576,633
+GPT-OSS-20B + LoRA,status_epilepticus,silver,0.45897352075841774,42
+GPT-OSS-20B + LoRA,status_epilepticus,gold,0.44737112468333723,121
+GPT-OSS-20B + LoRA,status_epilepticus,bronze,0.31494742824666094,243
+MedSigLIP-MRI (attn-pool),epilepsy_type,silver,0.263499245852187,105
+MedSigLIP-MRI (attn-pool),epilepsy_type,gold,0.28869243109073367,273
+MedSigLIP-MRI (attn-pool),epilepsy_type,bronze,0.34475397204952446,270
+MedSigLIP-MRI (attn-pool),seizure_type,silver,0.3876190476190476,123
+MedSigLIP-MRI (attn-pool),seizure_type,gold,0.24975770498158556,293
+MedSigLIP-MRI (attn-pool),seizure_type,bronze,0.2647298534798535,184
+MedSigLIP-MRI (attn-pool),ez_localization,silver,0.2921863799283154,49
+MedSigLIP-MRI (attn-pool),ez_localization,gold,0.3135475408035132,275
+MedSigLIP-MRI (attn-pool),ez_localization,bronze,0.3948061755328075,102
+MedSigLIP-MRI (attn-pool),aed_response,silver,0.15529715762273902,67
+MedSigLIP-MRI (attn-pool),aed_response,gold,0.3899700877864675,280
+MedSigLIP-MRI (attn-pool),aed_response,bronze,0.34868421052631576,35
+MedSigLIP-MRI (attn-pool),surgery_outcome,silver,0.25,9
+MedSigLIP-MRI (attn-pool),surgery_outcome,gold,0.4982879057663334,99
+MedSigLIP-MRI (attn-pool),surgery_outcome,bronze,0.0,1
+MedSigLIP-MRI (attn-pool),status_epilepticus,silver,0.5,4
+MedSigLIP-MRI (attn-pool),status_epilepticus,gold,0.19941348973607034,74
+MedSigLIP-MRI (attn-pool),status_epilepticus,bronze,0.13333333333333333,4
+MedSigLIP-EEG (attn-pool),epilepsy_type,silver,0.36696696696696696,46
+MedSigLIP-EEG (attn-pool),epilepsy_type,gold,0.26340475243587197,206
+MedSigLIP-EEG (attn-pool),epilepsy_type,bronze,0.3583284457478006,166
+MedSigLIP-EEG (attn-pool),seizure_type,silver,0.31965944272445823,67
+MedSigLIP-EEG (attn-pool),seizure_type,gold,0.2590405014464802,217
+MedSigLIP-EEG (attn-pool),seizure_type,bronze,0.38511937521293604,141
+MedSigLIP-EEG (attn-pool),ez_localization,silver,0.12142857142857144,26
+MedSigLIP-EEG (attn-pool),ez_localization,gold,0.31988533988533985,209
+MedSigLIP-EEG (attn-pool),ez_localization,bronze,0.2898989898989899,37
+MedSigLIP-EEG (attn-pool),aed_response,silver,0.18604651162790697,65
+MedSigLIP-EEG (attn-pool),aed_response,gold,0.26578754578754576,208
+MedSigLIP-EEG (attn-pool),aed_response,bronze,0.24930306650736758,30
+MedSigLIP-EEG (attn-pool),surgery_outcome,silver,0.22727272727272727,17
+MedSigLIP-EEG (attn-pool),surgery_outcome,gold,0.3884615384615384,53
+MedSigLIP-EEG (attn-pool),surgery_outcome,bronze,,0
+MedSigLIP-EEG (attn-pool),status_epilepticus,silver,0.6666666666666666,2
+MedSigLIP-EEG (attn-pool),status_epilepticus,gold,0.2659570494864612,79
+MedSigLIP-EEG (attn-pool),status_epilepticus,bronze,0.2222222222222222,2
+Learned fusion (Llama-8B + MedSigLIP),epilepsy_type,silver,0.6216786799147072,1290
+Learned fusion (Llama-8B + MedSigLIP),epilepsy_type,gold,0.5811633447706306,390
+Learned fusion (Llama-8B + MedSigLIP),epilepsy_type,bronze,0.6564590439206186,6194
+Learned fusion (Llama-8B + MedSigLIP),seizure_type,silver,0.5390428279913588,962
+Learned fusion (Llama-8B + MedSigLIP),seizure_type,gold,0.5146307277628033,425
+Learned fusion (Llama-8B + MedSigLIP),seizure_type,bronze,0.4947895723512313,4998
+Learned fusion (Llama-8B + MedSigLIP),ez_localization,silver,0.5013214790074136,1051
+Learned fusion (Llama-8B + MedSigLIP),ez_localization,gold,0.5240188305887703,401
+Learned fusion (Llama-8B + MedSigLIP),ez_localization,bronze,0.5176667146920788,3457
+Learned fusion (Llama-8B + MedSigLIP),aed_response,silver,0.3794522892116107,738
+Learned fusion (Llama-8B + MedSigLIP),aed_response,gold,0.49536909421688086,401
+Learned fusion (Llama-8B + MedSigLIP),aed_response,bronze,0.37926521046055983,2467
+Learned fusion (Llama-8B + MedSigLIP),surgery_outcome,silver,,0
+Learned fusion (Llama-8B + MedSigLIP),surgery_outcome,gold,,0
+Learned fusion (Llama-8B + MedSigLIP),surgery_outcome,bronze,,0
+Learned fusion (Llama-8B + MedSigLIP),status_epilepticus,silver,0.13836477987421383,42
+Learned fusion (Llama-8B + MedSigLIP),status_epilepticus,gold,0.17777777777777778,121
+Learned fusion (Llama-8B + MedSigLIP),status_epilepticus,bronze,0.17125382262996944,243
+Mistral-3.2-24B 0-shot+RAG (populated),epilepsy_type,silver,0.517026902753046,1290
+Mistral-3.2-24B 0-shot+RAG (populated),epilepsy_type,gold,0.5223655415369393,390
+Mistral-3.2-24B 0-shot+RAG (populated),epilepsy_type,bronze,0.6121347476279423,6194
+Mistral-3.2-24B 0-shot+RAG (populated),seizure_type,silver,0.4751564985720584,962
+Mistral-3.2-24B 0-shot+RAG (populated),seizure_type,gold,0.3396312735472871,425
+Mistral-3.2-24B 0-shot+RAG (populated),seizure_type,bronze,0.5233713091156103,4998
+Mistral-3.2-24B 0-shot+RAG (populated),ez_localization,silver,0.3973221020269667,1051
+Mistral-3.2-24B 0-shot+RAG (populated),ez_localization,gold,0.4822614118167582,401
+Mistral-3.2-24B 0-shot+RAG (populated),ez_localization,bronze,0.5048669907737614,3457
+Mistral-3.2-24B 0-shot+RAG (populated),aed_response,silver,0.27550624476772184,738
+Mistral-3.2-24B 0-shot+RAG (populated),aed_response,gold,0.14495477824997274,401
+Mistral-3.2-24B 0-shot+RAG (populated),aed_response,bronze,0.2763495640009081,2467
+Mistral-3.2-24B 0-shot+RAG (populated),surgery_outcome,silver,0.5862386061143825,249
+Mistral-3.2-24B 0-shot+RAG (populated),surgery_outcome,gold,0.5715892053973013,127
+Mistral-3.2-24B 0-shot+RAG (populated),surgery_outcome,bronze,0.5603375906937698,633
+Mistral-3.2-24B 0-shot+RAG (populated),status_epilepticus,silver,0.48840579710144927,42
+Mistral-3.2-24B 0-shot+RAG (populated),status_epilepticus,gold,0.43245920745920746,121
+Mistral-3.2-24B 0-shot+RAG (populated),status_epilepticus,bronze,0.4323930593099207,243
+Qwen2.5-7B 0-shot+RAG (populated),epilepsy_type,silver,0.5142400369196551,1290
+Qwen2.5-7B 0-shot+RAG (populated),epilepsy_type,gold,0.623453558634849,390
+Qwen2.5-7B 0-shot+RAG (populated),epilepsy_type,bronze,0.5421311288549227,6194
+Qwen2.5-7B 0-shot+RAG (populated),seizure_type,silver,0.44400201999020716,962
+Qwen2.5-7B 0-shot+RAG (populated),seizure_type,gold,0.41613219461829215,425
+Qwen2.5-7B 0-shot+RAG (populated),seizure_type,bronze,0.4475135447996668,4998
+Qwen2.5-7B 0-shot+RAG (populated),ez_localization,silver,0.40654277799656724,1051
+Qwen2.5-7B 0-shot+RAG (populated),ez_localization,gold,0.4412199825805649,401
+Qwen2.5-7B 0-shot+RAG (populated),ez_localization,bronze,0.42210868701028004,3457
+Qwen2.5-7B 0-shot+RAG (populated),aed_response,silver,0.2598961321943243,738
+Qwen2.5-7B 0-shot+RAG (populated),aed_response,gold,0.1488090321042266,401
+Qwen2.5-7B 0-shot+RAG (populated),aed_response,bronze,0.25766033896803553,2467
+Qwen2.5-7B 0-shot+RAG (populated),surgery_outcome,silver,0.25211776766604915,249
+Qwen2.5-7B 0-shot+RAG (populated),surgery_outcome,gold,0.2824858757062147,127
+Qwen2.5-7B 0-shot+RAG (populated),surgery_outcome,bronze,0.27465105030403536,633
+Qwen2.5-7B 0-shot+RAG (populated),status_epilepticus,silver,0.3866930171277998,42
+Qwen2.5-7B 0-shot+RAG (populated),status_epilepticus,gold,0.41790576573185273,121
+Qwen2.5-7B 0-shot+RAG (populated),status_epilepticus,bronze,0.35049525108386287,243
+MedGemma-27B 0-shot+RAG (populated),epilepsy_type,silver,0.5219914311630764,1290
+MedGemma-27B 0-shot+RAG (populated),epilepsy_type,gold,0.5741977237780884,390
+MedGemma-27B 0-shot+RAG (populated),epilepsy_type,bronze,0.5940906310580711,6194
+MedGemma-27B 0-shot+RAG (populated),seizure_type,silver,0.4773290284983833,962
+MedGemma-27B 0-shot+RAG (populated),seizure_type,gold,0.3822622236801342,425
+MedGemma-27B 0-shot+RAG (populated),seizure_type,bronze,0.5079889897758493,4998
+MedGemma-27B 0-shot+RAG (populated),ez_localization,silver,0.39593689866721576,1051
+MedGemma-27B 0-shot+RAG (populated),ez_localization,gold,0.5138548325978805,401
+MedGemma-27B 0-shot+RAG (populated),ez_localization,bronze,0.4923705147538923,3457
+MedGemma-27B 0-shot+RAG (populated),aed_response,silver,0.262738792055967,738
+MedGemma-27B 0-shot+RAG (populated),aed_response,gold,0.1699078227143127,401
+MedGemma-27B 0-shot+RAG (populated),aed_response,bronze,0.27762124674991057,2467
+MedGemma-27B 0-shot+RAG (populated),surgery_outcome,silver,0.2892068440132397,249
+MedGemma-27B 0-shot+RAG (populated),surgery_outcome,gold,0.2838844413505047,127
+MedGemma-27B 0-shot+RAG (populated),surgery_outcome,bronze,0.3313380281690141,633
+MedGemma-27B 0-shot+RAG (populated),status_epilepticus,silver,0.38166666666666665,42
+MedGemma-27B 0-shot+RAG (populated),status_epilepticus,gold,0.4675324675324675,121
+MedGemma-27B 0-shot+RAG (populated),status_epilepticus,bronze,0.37209551717365913,243
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),epilepsy_type,silver,0.579588912073947,1290
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),epilepsy_type,gold,0.585266487012501,390
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),epilepsy_type,bronze,0.5905090326850612,6194
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),seizure_type,silver,0.4723799106349442,962
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),seizure_type,gold,0.3725418463750257,425
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),seizure_type,bronze,0.49233306944223926,4998
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),ez_localization,silver,0.41873355950990876,1051
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),ez_localization,gold,0.5188024486769123,401
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),ez_localization,bronze,0.5110592109498623,3457
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),aed_response,silver,0.26664816606748665,738
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),aed_response,gold,0.1410186485421495,401
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),aed_response,bronze,0.2864644969538454,2467
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),surgery_outcome,silver,0.28727556596409054,249
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),surgery_outcome,gold,0.2994892747701736,127
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),surgery_outcome,bronze,0.32170665174512136,633
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),status_epilepticus,silver,0.6293650793650793,42
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),status_epilepticus,gold,0.5613980465643637,121
+Llama-4-Scout-17B-16E 0-shot+RAG (populated),status_epilepticus,bronze,0.4463196726728711,243
+GPT-OSS-120B 0-shot+RAG (populated),epilepsy_type,silver,0.5650058846948238,1290
+GPT-OSS-120B 0-shot+RAG (populated),epilepsy_type,gold,0.49394183826437166,390
+GPT-OSS-120B 0-shot+RAG (populated),epilepsy_type,bronze,0.5851209732794384,6194
+GPT-OSS-120B 0-shot+RAG (populated),seizure_type,silver,0.5009919338875559,962
+GPT-OSS-120B 0-shot+RAG (populated),seizure_type,gold,0.4436931818181818,425
+GPT-OSS-120B 0-shot+RAG (populated),seizure_type,bronze,0.4988459770957704,4998
+GPT-OSS-120B 0-shot+RAG (populated),ez_localization,silver,0.42060094826746336,1051
+GPT-OSS-120B 0-shot+RAG (populated),ez_localization,gold,0.48742534836379,401
+GPT-OSS-120B 0-shot+RAG (populated),ez_localization,bronze,0.4999675761323498,3457
+GPT-OSS-120B 0-shot+RAG (populated),aed_response,silver,0.2514758940907929,738
+GPT-OSS-120B 0-shot+RAG (populated),aed_response,gold,0.14203711666700794,401
+GPT-OSS-120B 0-shot+RAG (populated),aed_response,bronze,0.26044794070271776,2467
+GPT-OSS-120B 0-shot+RAG (populated),surgery_outcome,silver,0.5109007970649827,249
+GPT-OSS-120B 0-shot+RAG (populated),surgery_outcome,gold,0.43012820512820515,127
+GPT-OSS-120B 0-shot+RAG (populated),surgery_outcome,bronze,0.426801483691276,633
+GPT-OSS-120B 0-shot+RAG (populated),status_epilepticus,silver,0.42424242424242425,42
+GPT-OSS-120B 0-shot+RAG (populated),status_epilepticus,gold,0.5192292235124901,121
+GPT-OSS-120B 0-shot+RAG (populated),status_epilepticus,bronze,0.44563099263883754,243
+MedSigLIP-MRI (vision-LoRA),epilepsy_type,silver,0.3349452840020844,105
+MedSigLIP-MRI (vision-LoRA),epilepsy_type,gold,0.27336669583512396,273
+MedSigLIP-MRI (vision-LoRA),epilepsy_type,bronze,0.42225385323211406,270
+MedSigLIP-MRI (vision-LoRA),seizure_type,silver,0.3907809747504404,123
+MedSigLIP-MRI (vision-LoRA),seizure_type,gold,0.2449742870500234,293
+MedSigLIP-MRI (vision-LoRA),seizure_type,bronze,0.22045177045177045,184
+MedSigLIP-MRI (vision-LoRA),ez_localization,silver,0.3405415499533147,49
+MedSigLIP-MRI (vision-LoRA),ez_localization,gold,0.2983584049988378,275
+MedSigLIP-MRI (vision-LoRA),ez_localization,bronze,0.2838064859117491,102
+MedSigLIP-MRI (vision-LoRA),aed_response,silver,0.2491099665672721,67
+MedSigLIP-MRI (vision-LoRA),aed_response,gold,0.44528639913892604,280
+MedSigLIP-MRI (vision-LoRA),aed_response,bronze,0.27251461988304093,35
+MedSigLIP-MRI (vision-LoRA),surgery_outcome,silver,0.18181818181818182,9
+MedSigLIP-MRI (vision-LoRA),surgery_outcome,gold,0.4,99
+MedSigLIP-MRI (vision-LoRA),surgery_outcome,bronze,0.0,1
+MedSigLIP-MRI (vision-LoRA),status_epilepticus,silver,0.16666666666666666,4
+MedSigLIP-MRI (vision-LoRA),status_epilepticus,gold,0.19682539682539682,74
+MedSigLIP-MRI (vision-LoRA),status_epilepticus,bronze,0.2857142857142857,4
+MedSigLIP-EEG (vision-LoRA),epilepsy_type,silver,0.33412698412698416,46
+MedSigLIP-EEG (vision-LoRA),epilepsy_type,gold,0.23097587719298246,206
+MedSigLIP-EEG (vision-LoRA),epilepsy_type,bronze,0.2622585747585748,166
+MedSigLIP-EEG (vision-LoRA),seizure_type,silver,0.35679845708775315,67
+MedSigLIP-EEG (vision-LoRA),seizure_type,gold,0.27610766920116403,217
+MedSigLIP-EEG (vision-LoRA),seizure_type,bronze,0.26393784421715183,141
+MedSigLIP-EEG (vision-LoRA),ez_localization,silver,0.11428571428571428,26
+MedSigLIP-EEG (vision-LoRA),ez_localization,gold,0.21008251008251005,209
+MedSigLIP-EEG (vision-LoRA),ez_localization,bronze,0.2541176470588235,37
+MedSigLIP-EEG (vision-LoRA),aed_response,silver,0.21754385964912282,65
+MedSigLIP-EEG (vision-LoRA),aed_response,gold,0.3569860613301474,208
+MedSigLIP-EEG (vision-LoRA),aed_response,bronze,0.2986857825567503,30
+MedSigLIP-EEG (vision-LoRA),surgery_outcome,silver,0.4631578947368421,17
+MedSigLIP-EEG (vision-LoRA),surgery_outcome,gold,0.4394829612220917,53
+MedSigLIP-EEG (vision-LoRA),surgery_outcome,bronze,,0
+MedSigLIP-EEG (vision-LoRA),status_epilepticus,silver,0.2222222222222222,2
+MedSigLIP-EEG (vision-LoRA),status_epilepticus,gold,0.2228455664640798,79
+MedSigLIP-EEG (vision-LoRA),status_epilepticus,bronze,0.2222222222222222,2
+MedGemma-4B-Multi + LoRA,epilepsy_type,silver,0.6655690295982566,1290
+MedGemma-4B-Multi + LoRA,epilepsy_type,gold,0.5950464470350393,390
+MedGemma-4B-Multi + LoRA,epilepsy_type,bronze,0.6853324257737078,6194
+MedGemma-4B-Multi + LoRA,seizure_type,silver,0.5824878235964028,962
+MedGemma-4B-Multi + LoRA,seizure_type,gold,0.5469608247054744,425
+MedGemma-4B-Multi + LoRA,seizure_type,bronze,0.5580067639262536,4998
+MedGemma-4B-Multi + LoRA,ez_localization,silver,0.518167995909221,1051
+MedGemma-4B-Multi + LoRA,ez_localization,gold,0.670248441194413,401
+MedGemma-4B-Multi + LoRA,ez_localization,bronze,0.561911239480323,3457
+MedGemma-4B-Multi + LoRA,aed_response,silver,0.4403017166668006,738
+MedGemma-4B-Multi + LoRA,aed_response,gold,0.44419465486875925,401
+MedGemma-4B-Multi + LoRA,aed_response,bronze,0.42662485107143827,2467
+MedGemma-4B-Multi + LoRA,surgery_outcome,silver,0.4661350725259303,249
+MedGemma-4B-Multi + LoRA,surgery_outcome,gold,0.611429474872942,127
+MedGemma-4B-Multi + LoRA,surgery_outcome,bronze,0.47855989800934173,633
+MedGemma-4B-Multi + LoRA,status_epilepticus,silver,0.5969218616621438,42
+MedGemma-4B-Multi + LoRA,status_epilepticus,gold,0.613932393834003,121
+MedGemma-4B-Multi + LoRA,status_epilepticus,bronze,0.5055984748575307,243
+Qwen2.5-VL-7B + LoRA,epilepsy_type,silver,0.6771261595393524,1290
+Qwen2.5-VL-7B + LoRA,epilepsy_type,gold,0.6959462334499545,390
+Qwen2.5-VL-7B + LoRA,epilepsy_type,bronze,0.6881109704119833,6194
+Qwen2.5-VL-7B + LoRA,seizure_type,silver,0.5604097676857351,962
+Qwen2.5-VL-7B + LoRA,seizure_type,gold,0.5416867546951325,425
+Qwen2.5-VL-7B + LoRA,seizure_type,bronze,0.57438205830179,4998
+Qwen2.5-VL-7B + LoRA,ez_localization,silver,0.5333248100525726,1051
+Qwen2.5-VL-7B + LoRA,ez_localization,gold,0.6464503862525216,401
+Qwen2.5-VL-7B + LoRA,ez_localization,bronze,0.577535724081728,3457
+Qwen2.5-VL-7B + LoRA,aed_response,silver,0.42513989082630776,738
+Qwen2.5-VL-7B + LoRA,aed_response,gold,0.5066684878732286,401
+Qwen2.5-VL-7B + LoRA,aed_response,bronze,0.4287869417046218,2467
+Qwen2.5-VL-7B + LoRA,surgery_outcome,silver,0.5394915929118582,249
+Qwen2.5-VL-7B + LoRA,surgery_outcome,gold,0.564208063140825,127
+Qwen2.5-VL-7B + LoRA,surgery_outcome,bronze,0.5033565582217966,633
+Qwen2.5-VL-7B + LoRA,status_epilepticus,silver,0.5210123806898,42
+Qwen2.5-VL-7B + LoRA,status_epilepticus,gold,0.5475232742564612,121
+Qwen2.5-VL-7B + LoRA,status_epilepticus,bronze,0.5027053457241228,243

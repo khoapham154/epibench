@@ -1,0 +1,92 @@
+[
+  {
+    "task": "epilepsy_type",
+    "gold": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.4818652849740932,
+      "agreement": 0.68
+    },
+    "bronze": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.3263034563561804,
+      "agreement": 0.54
+    }
+  },
+  {
+    "task": "seizure_type",
+    "gold": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.544211485870556,
+      "agreement": 0.8
+    },
+    "bronze": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.32359307359307365,
+      "agreement": 0.5
+    }
+  },
+  {
+    "task": "ez_localization",
+    "gold": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.42378208486118396,
+      "agreement": 0.56
+    },
+    "bronze": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.38105489773950474,
+      "agreement": 0.54
+    }
+  },
+  {
+    "task": "aed_response",
+    "gold": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": -0.005944215820759213,
+      "agreement": 0.12
+    },
+    "bronze": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.09228441754916794,
+      "agreement": 0.52
+    }
+  },
+  {
+    "task": "surgery_outcome",
+    "gold": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.01591289782244565,
+      "agreement": 0.06
+    },
+    "bronze": {
+      "n_sampled": 49,
+      "n_invalid": 1,
+      "kappa": 0.0,
+      "agreement": 0.0
+    }
+  },
+  {
+    "task": "status_epilepticus",
+    "gold": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.28934010152284273,
+      "agreement": 0.44
+    },
+    "bronze": {
+      "n_sampled": 50,
+      "n_invalid": 0,
+      "kappa": 0.08303616912888434,
+      "agreement": 0.28
+    }
+  }
+]
