@@ -1,5 +1,7 @@
 # EpiBench: Code release for anonymous NeurIPS 2026 submission
 
+![EpiBench overview](images/data_state_t2.png)
+
 This repository contains the data-construction pipeline, baseline training
 code, and evaluation scripts for **EpiBench** — a multimodal, multi-task
 benchmark for clinical epilepsy management spanning six ILAE-aligned tasks
@@ -14,6 +16,36 @@ and is licensed under MIT.
 > Author identities, institutional affiliations, and server-specific paths
 > have been removed. All hard-coded paths default to environment
 > variables (`EPIBENCH_ROOT`, `EPIBENCH_MONET`).
+
+## Method
+
+![EpiBench construction pipeline](images/framework_t.png)
+
+EpiBench is built through a five-stage neurologist–LLM collaborative pipeline:
+
+1. **Term curation.** Expert neurologists curate **284 ILAE-aligned key terms**
+   across six clinical categories (seizure classification, syndromes, focal
+   localisation/semiology, EEG findings, MRI findings, anti-seizure medications).
+2. **Source retrieval.** Combinatorial query expansion against PubMed Central
+   Open Access plus 55 clinical textbooks (476 chapter PDFs) and 73 StatPearls
+   monographs, yielding **169,121 unique PMC papers** + textbook vignettes.
+3. **Patient extraction.** Multi-stage prompting on Mistral-Small-3.2-24B
+   (paper-type classifier, individual-patient identifier, NXML table parser
+   with Surya-OCR fallback, patient linker, ILAE-aligned JSON structurer),
+   running on 8 vLLM instances over 8× A100-80GB.
+4. **Subfigure decomposition.** Multi-panel figures are split with DAB-DETR,
+   classified by MedSigLIP-448, and co-validated against captions with
+   BiomedCLIP, yielding **23,673** patient-linked imaging panels
+   (15,801 MRI + 7,872 EEG).
+5. **Iterative refinement.** PubMedBERT + FAISS + UMAP + k-means cluster the
+   corpus for representative expert-review sampling; five rounds of
+   neurologist annotation drive prompt revisions, lifting paper-level
+   correctness from ≈60% (round 1) to **96.7% (29/30)** at the round-4
+   release, then 100% on a fresh 30-paper validation slice.
+
+The final corpus contains **25,737 patient cases** organised into Gold (834),
+Silver (13,006) and Bronze (11,897) tiers across six ILAE tasks and three
+modalities.
 
 ## Repository layout
 
@@ -159,10 +191,19 @@ See `results/figure_4_gold_table.md` for the full per-task table.
 ## License
 
 - **Code**: MIT (this repository)
-- **Dataset**: CC-BY-NC-SA-4.0 (released separately on HuggingFace)
+- **Dataset**: This EpiBench dataset is licensed under **CC BY-NC-SA 4.0**.
 - **Models**: each baseline obeys its upstream license; LLM checkpoints
   (Llama, Qwen, Mistral, MedGemma, GPT-OSS) are downloaded from
   HuggingFace under their respective terms.
+
+> **HEALTHCARE DISCLAIMER:** This dataset is provided for research and
+> educational purposes only. It is not intended for use in clinical
+> practice or as a substitute for professional medical advice, diagnosis,
+> or treatment. Any use of this data in a clinical setting is solely at
+> the user's own risk and must be guided by their own independent
+> professional judgement. The author(s) make no warranties regarding the
+> accuracy, completeness, or fitness of the data for any specific medical
+> purpose.
 
 ## Citation
 
